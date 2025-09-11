@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "start:dev": "node --watch --env-file=.env server.js",
+    "start": "node --env-file=.env server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,12 +22,15 @@
   "homepage": "https://github.com/DavidOleas26/proyecto-back-kruger#readme",
   "dependencies": {
     "bcrypt": "^5.1.1",
+    "cloudinary": "^2.6.1",
     "cors": "^2.8.5",
     "crypto": "^1.0.1",
     "express": "5.1.0",
+    "joi": "^17.13.3",
     "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.16.0",
     "mongoose": "^8.13.2",
+    "multer": "^2.0.1",
     "nodemailer": "^6.10.1",
     "winston": "^3.17.0"
   }
